@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    font-family: 'Poppins', san-serif;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 40vh;
+}
+
+.nav {
+    background-color: purple;
+    width: 100%;
+    padding: 0 45%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.nav ul {
+    
+}
+
+.nav ul li {
+    list-style-type:  none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: orange;
+}
+
+h4 {
+    color: orange;
+    font-size: 20px;
+}
+
+input {
+    width: 300px;
+    margin-bottom: 20px;
+    height: 30px;
+    border-radius: 6px;
+    outline: none;
+    padding: 5px;
+    border: 1px solid rgb(43, 43, 43);
+}
+
+textarea {
+    width: 300px;
+    margin-bottom: 20px;
+    height: 200px;
+    border-radius: 6px;
+    outline: none;
+    padding: 5px;
+    border: 1px solid rgb(43, 43, 43);
+}
+
+button {
+    padding: 10px 100px;
+    border: none;
+    border-radius: 6px;
+    color: orange;
+    background: purple;
+}
+
+.items {
+    margin-top: 30px;
+}
+
+.link {
+    text-decoration: none;
+    padding: 10px 80px;
+    border: none;
+    border-radius: 6px;
+    color: orange;
+    background: purple;
+}
+
+form {
+    margin-top: 50px;
+}
