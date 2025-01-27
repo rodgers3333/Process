@@ -5,7 +5,7 @@ form.addEventListener('submit', e => {
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
     .then(response => {
-        msg.innerHTML = "Connection failed! Try again";
+        msg.innerHTML = "Connection failed! Try again Later";
         msg.style.color = "orange";
         setTimeout(function(){
             msg.innerHTML = ""
