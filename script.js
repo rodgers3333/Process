@@ -12,3 +12,5 @@ form.addEventListener('submit', e => {
         },5000)
         form.reset()
     })
+    .catch(error => console.error('Error!', error.message))
+})
